@@ -39,7 +39,7 @@ Ensure you have the required runtimes installed, then clone the repository:
 Bash
 
 ```
-git clone https://github.com/your-username/scanner-project.git
+git clone https://github.com/LAN-SHLOK/scanner-project.git
 cd scanner-project
 
 ```
