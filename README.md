@@ -1,4 +1,4 @@
-#📄 Scanner Utility: High-Precision Document Processing
+#Scanner Utility: High-Precision Document Processing
 
 
 The **Scanner Utility** is a professional-grade tool built for high-fidelity document digitization and data extraction. Designed with a focus on **clean input processing**, this utility optimizes raw visual data into structured, searchable formats. It is engineered for developers and administrative professionals who require reliability and precision in their archival workflows.
