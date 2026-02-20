@@ -1,21 +1,14 @@
-# --- AI & Vision Brain ---
+fastapi
+uvicorn
+python-multipart
 torch
-torchvision
-transformers
 open_clip_torch
-numpy
-Pillow
 opencv-python-headless
-
-# --- PDF & Image Processing ---
-fpdf
-fitz
-pymupdf
+Pillow
+pydicom
 pytesseract
 pdf2image
-
-# --- Backend & API ---
-fastapi
-uvicorn[standard]
-python-multipart
-shutil
+pymupdf
+numpy
+transformers
+reportlab
