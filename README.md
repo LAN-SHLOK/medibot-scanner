@@ -113,4 +113,4 @@ Plaintext
 
 -   **Contributions:** Please open an issue or submit a pull request for any feature enhancements.
     
--   **License:** This project is released under the **MIT License**.
+-   **License:** This project is released under the **MIT License** -  see the [LICENSE](LICENSE) file for details..
