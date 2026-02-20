@@ -1,0 +1,128 @@
+{
+   "Non_Medical": {
+      "Documents": [
+         {
+            "name": "Government ID Document",
+            "severity": 0
+         },
+         {
+            "name": "Invoice / Bill / Receipt",
+            "severity": 0
+         },
+         {
+            "name": "Prescription (Handwritten)",
+            "severity": 0
+         },
+         {
+            "name": "Medical Report Photograph (Unreadable)",
+            "severity": 0
+         },
+         {
+            "name": "Insurance Document",
+            "severity": 0
+         }
+      ],
+      "Photographs": [
+         {
+            "name": "Personal Photograph / Selfie",
+            "severity": 0
+         },
+         {
+            "name": "Family / Group Photograph",
+            "severity": 0
+         },
+         {
+            "name": "Outdoor Scenery / Landscape",
+            "severity": 0
+         },
+         {
+            "name": "Animal / Pet Photograph",
+            "severity": 0
+         }
+      ],
+      "Screenshots": [
+         {
+            "name": "Mobile App Screenshot",
+            "severity": 0
+         },
+         {
+            "name": "Website Screenshot",
+            "severity": 0
+         },
+         {
+            "name": "Chat / Message Screenshot",
+            "severity": 0
+         }
+      ],
+      "Medical_Artifacts": [
+         {
+            "name": "Photograph of X-ray Film",
+            "severity": 0
+         },
+         {
+            "name": "Photograph of Ultrasound Screen",
+            "severity": 0
+         },
+         {
+            "name": "Blurred / Motion Artifact Image",
+            "severity": 0
+         },
+         {
+            "name": "Overexposed / Underexposed Image",
+            "severity": 0
+         }
+      ],
+      "Calibration_Control": [
+         {
+            "name": "Phantom / Calibration Object",
+            "severity": 0
+         },
+         {
+            "name": "Quality Control (QC) Pattern",
+            "severity": 0
+         },
+         {
+            "name": "Test Image / Dummy Scan",
+            "severity": 0
+         }
+      ],
+      "Non_Human": [
+         {
+            "name": "Animal Medical Image",
+            "severity": 0
+         },
+         {
+            "name": "Veterinary Report",
+            "severity": 0
+         }
+      ],
+      "Art_Design": [
+         {
+            "name": "Illustration / Diagram",
+            "severity": 0
+         },
+         {
+            "name": "AI Generated Artwork",
+            "severity": 0
+         },
+         {
+            "name": "Cartoon / Drawing",
+            "severity": 0
+         }
+      ],
+      "Control": [
+         {
+            "name": "Empty Image / Corrupted File",
+            "severity": 0
+         },
+         {
+            "name": "Unsupported File Format",
+            "severity": 0
+         },
+         {
+            "name": "Unknown / Unclassified Image",
+            "severity": 0
+         }
+      ]
+   }
+}

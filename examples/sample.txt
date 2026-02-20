@@ -1,0 +1,2 @@
+Put sample files here (e.g., sample.pdf)
+# uvicorn app.api:app --port 8000

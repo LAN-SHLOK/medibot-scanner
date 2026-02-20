@@ -1,0 +1,294 @@
+{
+   "Dermatology": {
+      "Dermoscopy": {
+         "General_Skin": [
+            {
+               "name": "Normal Skin Pattern",
+               "severity": 1
+            },
+            {
+               "name": "Benign Melanocytic Nevus",
+               "severity": 1
+            },
+            {
+               "name": "Seborrheic Keratosis",
+               "severity": 1
+            },
+            {
+               "name": "Dermatofibroma",
+               "severity": 1
+            },
+            {
+               "name": "Hemangioma",
+               "severity": 1
+            },
+            {
+               "name": "Melanoma (Suspicious)",
+               "severity": 4
+            },
+            {
+               "name": "Basal Cell Carcinoma (Suspicious)",
+               "severity": 3
+            },
+            {
+               "name": "Squamous Cell Carcinoma (Suspicious)",
+               "severity": 3
+            }
+         ],
+         "Face": [
+            {
+               "name": "Solar Lentigo",
+               "severity": 1
+            },
+            {
+               "name": "Pigmented Actinic Keratosis",
+               "severity": 2
+            },
+            {
+               "name": "Basal Cell Carcinoma (Facial Pattern)",
+               "severity": 3
+            },
+            {
+               "name": "Melanoma (Facial Lentiginous Pattern)",
+               "severity": 4
+            }
+         ],
+         "Trunk": [
+            {
+               "name": "Atypical Nevus",
+               "severity": 2
+            },
+            {
+               "name": "Superficial Spreading Melanoma",
+               "severity": 4
+            },
+            {
+               "name": "Psoriasis Plaque",
+               "severity": 2
+            },
+            {
+               "name": "Eczema Patch",
+               "severity": 1
+            }
+         ],
+         "Acral_Hands_Feet": [
+            {
+               "name": "Benign Acral Nevus",
+               "severity": 1
+            },
+            {
+               "name": "Acral Melanoma (Suspicious)",
+               "severity": 4
+            },
+            {
+               "name": "Callus / Corn",
+               "severity": 1
+            },
+            {
+               "name": "Plantar Wart",
+               "severity": 2
+            }
+         ]
+      },
+      "Trichoscopy": {
+         "Scalp": [
+            {
+               "name": "Normal Scalp",
+               "severity": 1
+            },
+            {
+               "name": "Alopecia Areata",
+               "severity": 2
+            },
+            {
+               "name": "Androgenetic Alopecia",
+               "severity": 2
+            },
+            {
+               "name": "Telogen Effluvium",
+               "severity": 2
+            },
+            {
+               "name": "Tinea Capitis",
+               "severity": 3
+            },
+            {
+               "name": "Lichen Planopilaris (Scarring)",
+               "severity": 3
+            },
+            {
+               "name": "Discoid Lupus Erythematosus (Scarring)",
+               "severity": 3
+            }
+         ],
+         "Eyebrow_Beard": [
+            {
+               "name": "Alopecia Areata",
+               "severity": 2
+            },
+            {
+               "name": "Trichotillomania",
+               "severity": 2
+            },
+            {
+               "name": "Folliculitis",
+               "severity": 2
+            }
+         ]
+      },
+      "Onychoscopy": {
+         "Fingernails": [
+            {
+               "name": "Normal Nail",
+               "severity": 1
+            },
+            {
+               "name": "Longitudinal Melanonychia",
+               "severity": 2
+            },
+            {
+               "name": "Subungual Hematoma",
+               "severity": 2
+            },
+            {
+               "name": "Subungual Melanoma (Suspicious)",
+               "severity": 4
+            },
+            {
+               "name": "Onychomycosis",
+               "severity": 2
+            },
+            {
+               "name": "Nail Psoriasis",
+               "severity": 2
+            }
+         ],
+         "Toenails": [
+            {
+               "name": "Onychomycosis",
+               "severity": 2
+            },
+            {
+               "name": "Subungual Hematoma",
+               "severity": 2
+            },
+            {
+               "name": "Subungual Melanoma (Suspicious)",
+               "severity": 4
+            },
+            {
+               "name": "Traumatic Nail Dystrophy",
+               "severity": 1
+            }
+         ]
+      },
+      "Mucoscopy": {
+         "Oral": [
+            {
+               "name": "Normal Oral Mucosa",
+               "severity": 1
+            },
+            {
+               "name": "Oral Lichen Planus",
+               "severity": 2
+            },
+            {
+               "name": "Oral Leukoplakia",
+               "severity": 3
+            },
+            {
+               "name": "Oral Squamous Cell Carcinoma (Suspicious)",
+               "severity": 4
+            }
+         ],
+         "Genital": [
+            {
+               "name": "Benign Pigmented Macule",
+               "severity": 1
+            },
+            {
+               "name": "Genital Wart",
+               "severity": 2
+            },
+            {
+               "name": "Mucosal Melanoma (Suspicious)",
+               "severity": 4
+            }
+         ]
+      },
+      "Pediatric_Dermatology": {
+         "Infant": [
+            {
+               "name": "Infantile Hemangioma",
+               "severity": 2
+            },
+            {
+               "name": "Congenital Melanocytic Nevus",
+               "severity": 2
+            },
+            {
+               "name": "Atopic Dermatitis",
+               "severity": 2
+            },
+            {
+               "name": "Diaper Dermatitis",
+               "severity": 1
+            }
+         ],
+         "Child": [
+            {
+               "name": "Viral Exanthem",
+               "severity": 2
+            },
+            {
+               "name": "Molluscum Contagiosum",
+               "severity": 1
+            },
+            {
+               "name": "Impetigo",
+               "severity": 3
+            },
+            {
+               "name": "Vitiligo",
+               "severity": 2
+            }
+         ]
+      },
+      "Infectious_Parasitic": {
+         "Skin": [
+            {
+               "name": "Scabies",
+               "severity": 3
+            },
+            {
+               "name": "Cutaneous Larva Migrans",
+               "severity": 3
+            },
+            {
+               "name": "Fungal Infection (Dermatophytosis)",
+               "severity": 2
+            },
+            {
+               "name": "Bacterial Skin Infection",
+               "severity": 3
+            }
+         ]
+      },
+      "Control": {
+         "Non_Diagnostic": [
+            {
+               "name": "Poor Quality Dermoscopy Image",
+               "severity": 0
+            },
+            {
+               "name": "Non-Skin Image / Artifact",
+               "severity": 0
+            },
+            {
+               "name": "Post-Treatment Skin Change",
+               "severity": 1
+            }
+         ]
+      }
+   }
+}

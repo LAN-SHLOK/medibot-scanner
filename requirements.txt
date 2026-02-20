@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+python-multipart
+torch
+open_clip_torch
+opencv-python-headless
+Pillow
+pydicom
+pytesseract
+pdf2image
+pymupdf
+numpy
+transformers
+reportlab

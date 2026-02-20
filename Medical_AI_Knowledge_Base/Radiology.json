@@ -1,0 +1,720 @@
+{
+   "Radiology": {
+      "Radiology_MRI": {
+         "Pelvis": [
+            {
+               "name": "Normal Pelvis",
+               "severity": 1
+            },
+            {
+               "name": "Cervical Cancer (Malignant)",
+               "severity": 4
+            },
+            {
+               "name": "Cervical Mass (Suspicious)",
+               "severity": 3
+            },
+            {
+               "name": "Uterine Fibroid",
+               "severity": 2
+            },
+            {
+               "name": "Endometrial Thickening",
+               "severity": 3
+            },
+            {
+               "name": "Ovarian Cancer (Mass)",
+               "severity": 4
+            },
+            {
+               "name": "Ovarian Cyst",
+               "severity": 2
+            },
+            {
+               "name": "Pelvic Abscess",
+               "severity": 4
+            },
+            {
+               "name": "Prostate Tumor",
+               "severity": 3
+            },
+            {
+               "name": "Endometriosis",
+               "severity": 2
+            }
+         ],
+         "Brain": [
+            {
+               "name": "Normal Brain",
+               "severity": 1
+            },
+            {
+               "name": "Acute Ischemic Stroke",
+               "severity": 4
+            },
+            {
+               "name": "Intracerebral Hemorrhage",
+               "severity": 4
+            },
+            {
+               "name": "Brain Tumor (Glioblastoma)",
+               "severity": 4
+            },
+            {
+               "name": "Meningioma",
+               "severity": 3
+            },
+            {
+               "name": "Hydrocephalus",
+               "severity": 3
+            },
+            {
+               "name": "Multiple Sclerosis (Plaques)",
+               "severity": 3
+            },
+            {
+               "name": "Pituitary Adenoma",
+               "severity": 2
+            }
+         ],
+         "Spine": [
+            {
+               "name": "Normal Spine",
+               "severity": 1
+            },
+            {
+               "name": "Disc Herniation",
+               "severity": 2
+            },
+            {
+               "name": "Spinal Stenosis",
+               "severity": 3
+            },
+            {
+               "name": "Spinal Cord Compression",
+               "severity": 4
+            },
+            {
+               "name": "Spinal Tumor",
+               "severity": 4
+            },
+            {
+               "name": "Cauda Equina Syndrome",
+               "severity": 4
+            }
+         ],
+         "Shoulder": [
+            {
+               "name": "Normal Shoulder",
+               "severity": 1
+            },
+            {
+               "name": "Rotator Cuff Tear",
+               "severity": 3
+            },
+            {
+               "name": "Labral Tear",
+               "severity": 3
+            },
+            {
+               "name": "Joint Effusion",
+               "severity": 2
+            }
+         ],
+         "Knee": [
+            {
+               "name": "Normal Knee",
+               "severity": 1
+            },
+            {
+               "name": "ACL Tear",
+               "severity": 3
+            },
+            {
+               "name": "Meniscus Tear",
+               "severity": 2
+            },
+            {
+               "name": "Bone Contusion",
+               "severity": 2
+            }
+         ],
+         "Breast_MRI": [
+            {
+               "name": "Normal Breast MRI",
+               "severity": 1
+            },
+            {
+               "name": "Enhancing Mass (Suspicious)",
+               "severity": 4
+            },
+            {
+               "name": "Implant Rupture",
+               "severity": 3
+            }
+         ]
+      },
+      "Radiology_CT": {
+         "Pelvis": [
+            {
+               "name": "Normal Pelvis",
+               "severity": 1
+            },
+            {
+               "name": "Pelvic Fracture",
+               "severity": 4
+            },
+            {
+               "name": "Pelvic Abscess",
+               "severity": 4
+            },
+            {
+               "name": "Cervical Cancer",
+               "severity": 4
+            },
+            {
+               "name": "Pelvic Mass (Suspicious)",
+               "severity": 3
+            }
+         ],
+         "Brain": [
+            {
+               "name": "Normal Brain",
+               "severity": 1
+            },
+            {
+               "name": "Acute Stroke (Infarct)",
+               "severity": 4
+            },
+            {
+               "name": "Intracranial Hemorrhage (Bleed)",
+               "severity": 4
+            },
+            {
+               "name": "Subdural Hematoma",
+               "severity": 4
+            },
+            {
+               "name": "Skull Fracture",
+               "severity": 3
+            }
+         ],
+         "Chest": [
+            {
+               "name": "Normal Chest",
+               "severity": 1
+            },
+            {
+               "name": "Pulmonary Embolism",
+               "severity": 4
+            },
+            {
+               "name": "Lung Cancer (Mass)",
+               "severity": 4
+            },
+            {
+               "name": "Pneumonia",
+               "severity": 3
+            },
+            {
+               "name": "Pleural Effusion",
+               "severity": 3
+            },
+            {
+               "name": "Aortic Dissection",
+               "severity": 4
+            },
+            {
+               "name": "Emphysema",
+               "severity": 2
+            }
+         ],
+         "Abdomen": [
+            {
+               "name": "Normal Abdomen",
+               "severity": 1
+            },
+            {
+               "name": "Appendicitis",
+               "severity": 4
+            },
+            {
+               "name": "Bowel Obstruction",
+               "severity": 4
+            },
+            {
+               "name": "Pancreatitis",
+               "severity": 3
+            },
+            {
+               "name": "Abdominal Aortic Aneurysm",
+               "severity": 4
+            },
+            {
+               "name": "Liver Cirrhosis",
+               "severity": 3
+            },
+            {
+               "name": "Kidney Stone",
+               "severity": 3
+            },
+            {
+               "name": "Diverticulitis",
+               "severity": 3
+            }
+         ],
+         "KUB": [
+            {
+               "name": "Normal KUB",
+               "severity": 1
+            },
+            {
+               "name": "Ureteric Calculus (Stone)",
+               "severity": 3
+            },
+            {
+               "name": "Hydronephrosis",
+               "severity": 4
+            }
+         ],
+         "Angiography": [
+            {
+               "name": "Normal Angiogram",
+               "severity": 1
+            },
+            {
+               "name": "Stenosis (Blockage)",
+               "severity": 3
+            },
+            {
+               "name": "Aneurysm",
+               "severity": 4
+            },
+            {
+               "name": "Vascular Occlusion",
+               "severity": 4
+            }
+         ]
+      },
+      "Radiology_XRAY": {
+         "Chest": [
+            {
+               "name": "Normal Chest",
+               "severity": 1
+            },
+            {
+               "name": "Pneumonia",
+               "severity": 3
+            },
+            {
+               "name": "Pneumothorax (Collapsed Lung)",
+               "severity": 4
+            },
+            {
+               "name": "Tuberculosis",
+               "severity": 3
+            },
+            {
+               "name": "Pleural Effusion",
+               "severity": 3
+            },
+            {
+               "name": "Lung Nodule",
+               "severity": 2
+            },
+            {
+               "name": "Cardiomegaly",
+               "severity": 2
+            },
+            {
+               "name": "Pulmonary Edema",
+               "severity": 4
+            },
+            {
+               "name": "Rib Fracture",
+               "severity": 3
+            }
+         ],
+         "Bone": [
+            {
+               "name": "Normal Bone",
+               "severity": 1
+            },
+            {
+               "name": "Fracture",
+               "severity": 3
+            },
+            {
+               "name": "Dislocation",
+               "severity": 3
+            },
+            {
+               "name": "Osteoarthritis",
+               "severity": 2
+            },
+            {
+               "name": "Osteoporosis",
+               "severity": 2
+            }
+         ],
+         "Pediatric_XRAY": [
+            {
+               "name": "Normal Child Bone",
+               "severity": 1
+            },
+            {
+               "name": "Greenstick Fracture",
+               "severity": 3
+            },
+            {
+               "name": "Salter-Harris Fracture",
+               "severity": 4
+            },
+            {
+               "name": "Buckle Fracture",
+               "severity": 2
+            }
+         ],
+         "UpperLimb": [
+            {
+               "name": "Normal Upper Limb",
+               "severity": 1
+            },
+            {
+               "name": "Distal Radius Fracture",
+               "severity": 3
+            },
+            {
+               "name": "Shoulder Dislocation",
+               "severity": 3
+            },
+            {
+               "name": "Clavicle Fracture",
+               "severity": 3
+            }
+         ],
+         "LowerLimb": [
+            {
+               "name": "Normal Lower Limb",
+               "severity": 1
+            },
+            {
+               "name": "Ankle Fracture",
+               "severity": 3
+            },
+            {
+               "name": "Hip Fracture",
+               "severity": 4
+            },
+            {
+               "name": "Knee Effusion",
+               "severity": 2
+            }
+         ],
+         "Spine": [
+            {
+               "name": "Normal Spine X-Ray",
+               "severity": 1
+            },
+            {
+               "name": "Compression Fracture",
+               "severity": 3
+            },
+            {
+               "name": "Scoliosis",
+               "severity": 2
+            },
+            {
+               "name": "Spondylolisthesis",
+               "severity": 2
+            }
+         ],
+         "Dental": [
+            {
+               "name": "Normal Teeth",
+               "severity": 1
+            },
+            {
+               "name": "Dental Caries (Cavity)",
+               "severity": 2
+            },
+            {
+               "name": "Periapical Abscess",
+               "severity": 3
+            },
+            {
+               "name": "Impacted Wisdom Tooth",
+               "severity": 2
+            }
+         ]
+      },
+      "Ultrasound": {
+         "Abdomen": [
+            {
+               "name": "Normal Abdomen US",
+               "severity": 1
+            },
+            {
+               "name": "Gallstones (Cholelithiasis)",
+               "severity": 3
+            },
+            {
+               "name": "Fatty Liver (Steatosis)",
+               "severity": 2
+            },
+            {
+               "name": "Liver Mass",
+               "severity": 3
+            },
+            {
+               "name": "Ascites",
+               "severity": 3
+            }
+         ],
+         "Kidney": [
+            {
+               "name": "Normal Kidney US",
+               "severity": 1
+            },
+            {
+               "name": "Hydronephrosis",
+               "severity": 4
+            },
+            {
+               "name": "Renal Cyst",
+               "severity": 2
+            },
+            {
+               "name": "Renal Calculus",
+               "severity": 3
+            }
+         ],
+         "Obstetric": [
+            {
+               "name": "Normal Fetus",
+               "severity": 1
+            },
+            {
+               "name": "Placenta Previa",
+               "severity": 3
+            },
+            {
+               "name": "Ectopic Pregnancy",
+               "severity": 4
+            },
+            {
+               "name": "IUGR",
+               "severity": 3
+            }
+         ],
+         "Thyroid": [
+            {
+               "name": "Normal Thyroid",
+               "severity": 1
+            },
+            {
+               "name": "Thyroid Nodule (Solid)",
+               "severity": 2
+            },
+            {
+               "name": "Thyroid Nodule (Suspicious)",
+               "severity": 3
+            },
+            {
+               "name": "Goiter",
+               "severity": 2
+            }
+         ],
+         "Vascular": [
+            {
+               "name": "Normal Doppler",
+               "severity": 1
+            },
+            {
+               "name": "Deep Vein Thrombosis (DVT)",
+               "severity": 4
+            },
+            {
+               "name": "Carotid Stenosis",
+               "severity": 3
+            }
+         ]
+      },
+      "Mammography": {
+         "Breast": [
+            {
+               "name": "BI-RADS 1 (Normal)",
+               "severity": 1
+            },
+            {
+               "name": "BI-RADS 2 (Benign Findings)",
+               "severity": 1
+            },
+            {
+               "name": "BI-RADS 3 (Probably Benign)",
+               "severity": 2
+            },
+            {
+               "name": "BI-RADS 4 (Suspicious Abnormality)",
+               "severity": 3
+            },
+            {
+               "name": "BI-RADS 5 (Highly Suggestive of Malignancy)",
+               "severity": 4
+            },
+            {
+               "name": "Dense Breast Tissue",
+               "severity": 1
+            },
+            {
+               "name": "Microcalcifications (Pleomorphic)",
+               "severity": 3
+            },
+            {
+               "name": "Spiculated Mass",
+               "severity": 4
+            }
+         ]
+      },
+      "Nuclear_Medicine": {
+         "Bone_Scan": [
+            {
+               "name": "Normal Bone Scan",
+               "severity": 1
+            },
+            {
+               "name": "Metastatic Bone Disease (Multiple Hot Spots)",
+               "severity": 4
+            },
+            {
+               "name": "Stress Fracture",
+               "severity": 3
+            },
+            {
+               "name": "Osteomyelitis",
+               "severity": 3
+            },
+            {
+               "name": "Degenerative Changes",
+               "severity": 2
+            }
+         ],
+         "PET_CT": [
+            {
+               "name": "Normal Physiologic Uptake",
+               "severity": 1
+            },
+            {
+               "name": "Hypermetabolic Nodule (Suspected Malignancy)",
+               "severity": 4
+            },
+            {
+               "name": "Metastatic Lymphadenopathy",
+               "severity": 4
+            },
+            {
+               "name": "Post-Treatment Changes",
+               "severity": 2
+            }
+         ],
+         "Thyroid_Scan": [
+            {
+               "name": "Normal Thyroid Uptake",
+               "severity": 1
+            },
+            {
+               "name": "Cold Nodule (Suspicious)",
+               "severity": 3
+            },
+            {
+               "name": "Hot Nodule (Toxic Adenoma)",
+               "severity": 2
+            },
+            {
+               "name": "Graves Disease (Diffuse Uptake)",
+               "severity": 2
+            }
+         ],
+         "VQ_Scan": [
+            {
+               "name": "Low Probability PE",
+               "severity": 1
+            },
+            {
+               "name": "Intermediate Probability PE",
+               "severity": 2
+            },
+            {
+               "name": "High Probability Pulmonary Embolism",
+               "severity": 4
+            }
+         ]
+      },
+      "Fluoroscopy": {
+         "GI_Tract": [
+            {
+               "name": "Normal Barium Swallow",
+               "severity": 1
+            },
+            {
+               "name": "Esophageal Stricture",
+               "severity": 3
+            },
+            {
+               "name": "Hiatal Hernia",
+               "severity": 2
+            },
+            {
+               "name": "Achalasia (Bird Beak Sign)",
+               "severity": 3
+            },
+            {
+               "name": "Colorectal Cancer (Apple Core Lesion)",
+               "severity": 4
+            },
+            {
+               "name": "Diverticulosis",
+               "severity": 2
+            },
+            {
+               "name": "Bowel Perforation (Leak)",
+               "severity": 4
+            }
+         ],
+         "Genitourinary": [
+            {
+               "name": "Normal Cystogram",
+               "severity": 1
+            },
+            {
+               "name": "Vesicoureteral Reflux (VUR)",
+               "severity": 3
+            },
+            {
+               "name": "Bladder Rupture",
+               "severity": 4
+            }
+         ]
+      },
+      "DEXA_Scan": {
+         "Bone_Density": [
+            {
+               "name": "Normal Bone Density",
+               "severity": 1
+            },
+            {
+               "name": "Osteopenia (Low Bone Mass)",
+               "severity": 2
+            },
+            {
+               "name": "Osteoporosis (High Fracture Risk)",
+               "severity": 3
+            },
+            {
+               "name": "Severe Osteoporosis (History of Fracture)",
+               "severity": 4
+            }
+         ]
+      }
+   }
+}

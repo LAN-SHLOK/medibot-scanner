@@ -1,0 +1,354 @@
+{
+   "Pathology": {
+      "Histopathology": {
+         "General": [
+            {
+               "name": "Normal Tissue Architecture",
+               "severity": 1
+            },
+            {
+               "name": "Inflammatory Changes",
+               "severity": 2
+            },
+            {
+               "name": "Acute Inflammation",
+               "severity": 3
+            },
+            {
+               "name": "Chronic Inflammation",
+               "severity": 2
+            },
+            {
+               "name": "Necrosis",
+               "severity": 4
+            }
+         ],
+         "Epithelial_Lesions": [
+            {
+               "name": "Benign Epithelial Hyperplasia",
+               "severity": 1
+            },
+            {
+               "name": "Dysplasia (Low Grade)",
+               "severity": 2
+            },
+            {
+               "name": "Dysplasia (High Grade)",
+               "severity": 3
+            },
+            {
+               "name": "Carcinoma In Situ (Suspicious)",
+               "severity": 3
+            },
+            {
+               "name": "Invasive Carcinoma (Suspicious)",
+               "severity": 4
+            }
+         ],
+         "Mesenchymal_Lesions": [
+            {
+               "name": "Benign Mesenchymal Tumor",
+               "severity": 1
+            },
+            {
+               "name": "Sarcoma (Suspicious)",
+               "severity": 4
+            },
+            {
+               "name": "Fibromatosis",
+               "severity": 2
+            }
+         ],
+         "Hematolymphoid": [
+            {
+               "name": "Reactive Lymphoid Hyperplasia",
+               "severity": 1
+            },
+            {
+               "name": "Lymphoma (Suspicious)",
+               "severity": 4
+            },
+            {
+               "name": "Leukemic Infiltration (Suspicious)",
+               "severity": 4
+            }
+         ]
+      },
+      "Cytopathology": {
+         "Cervical_Pap": [
+            {
+               "name": "NILM (Negative for Intraepithelial Lesion)",
+               "severity": 1
+            },
+            {
+               "name": "ASC-US (Atypical Squamous Cells)",
+               "severity": 2
+            },
+            {
+               "name": "LSIL (Low Grade Lesion)",
+               "severity": 2
+            },
+            {
+               "name": "HSIL (High Grade Lesion)",
+               "severity": 3
+            },
+            {
+               "name": "Squamous Cell Carcinoma",
+               "severity": 4
+            }
+         ],
+         "Fluids": [
+            {
+               "name": "No Malignant Cells",
+               "severity": 1
+            },
+            {
+               "name": "Malignant Cells Present",
+               "severity": 4
+            },
+            {
+               "name": "Atypical Cells",
+               "severity": 3
+            }
+         ]
+      },
+      "Organ_Specific": {
+         "Brain": [
+            {
+               "name": "Normal Neural Tissue",
+               "severity": 1
+            },
+            {
+               "name": "Gliosis",
+               "severity": 2
+            },
+            {
+               "name": "Primary Brain Tumor (Suspicious)",
+               "severity": 4
+            },
+            {
+               "name": "Metastatic Tumor (Suspicious)",
+               "severity": 4
+            }
+         ],
+         "Lung": [
+            {
+               "name": "Normal Lung Tissue",
+               "severity": 1
+            },
+            {
+               "name": "Pneumonitis",
+               "severity": 3
+            },
+            {
+               "name": "Granulomatous Inflammation (TB Suspicious)",
+               "severity": 3
+            },
+            {
+               "name": "Primary Lung Carcinoma (Suspicious)",
+               "severity": 4
+            }
+         ],
+         "Heart": [
+            {
+               "name": "Normal Myocardium",
+               "severity": 1
+            },
+            {
+               "name": "Myocarditis",
+               "severity": 3
+            },
+            {
+               "name": "Cardiac Amyloidosis",
+               "severity": 3
+            }
+         ],
+         "Liver": [
+            {
+               "name": "Normal Liver Histology",
+               "severity": 1
+            },
+            {
+               "name": "Hepatitis",
+               "severity": 3
+            },
+            {
+               "name": "Cirrhosis",
+               "severity": 3
+            },
+            {
+               "name": "Hepatocellular Carcinoma (Suspicious)",
+               "severity": 4
+            }
+         ],
+         "Kidney": [
+            {
+               "name": "Normal Renal Tissue",
+               "severity": 1
+            },
+            {
+               "name": "Glomerulonephritis",
+               "severity": 3
+            },
+            {
+               "name": "Acute Tubular Necrosis",
+               "severity": 4
+            },
+            {
+               "name": "Renal Cell Carcinoma (Suspicious)",
+               "severity": 4
+            }
+         ],
+         "Gastrointestinal": [
+            {
+               "name": "Normal Gastrointestinal Mucosa",
+               "severity": 1
+            },
+            {
+               "name": "Peptic Ulcer Disease",
+               "severity": 3
+            },
+            {
+               "name": "Inflammatory Bowel Disease",
+               "severity": 3
+            },
+            {
+               "name": "Colorectal Carcinoma (Suspicious)",
+               "severity": 4
+            }
+         ],
+         "Pancreas": [
+            {
+               "name": "Normal Pancreatic Tissue",
+               "severity": 1
+            },
+            {
+               "name": "Chronic Pancreatitis",
+               "severity": 3
+            },
+            {
+               "name": "Pancreatic Adenocarcinoma (Suspicious)",
+               "severity": 4
+            }
+         ],
+         "Breast": [
+            {
+               "name": "Normal Breast Tissue",
+               "severity": 1
+            },
+            {
+               "name": "Fibroadenoma",
+               "severity": 1
+            },
+            {
+               "name": "Ductal Carcinoma In Situ (Suspicious)",
+               "severity": 3
+            },
+            {
+               "name": "Invasive Breast Carcinoma (Suspicious)",
+               "severity": 4
+            }
+         ],
+         "Female_Reproductive": [
+            {
+               "name": "Normal Endometrium",
+               "severity": 1
+            },
+            {
+               "name": "Endometrial Hyperplasia",
+               "severity": 2
+            },
+            {
+               "name": "Cervical Dysplasia",
+               "severity": 2
+            },
+            {
+               "name": "Cervical Carcinoma (Suspicious)",
+               "severity": 4
+            },
+            {
+               "name": "Ovarian Carcinoma (Suspicious)",
+               "severity": 4
+            }
+         ],
+         "Male_Reproductive": [
+            {
+               "name": "Normal Prostate Tissue",
+               "severity": 1
+            },
+            {
+               "name": "Benign Prostatic Hyperplasia",
+               "severity": 1
+            },
+            {
+               "name": "Prostate Adenocarcinoma (Suspicious)",
+               "severity": 4
+            },
+            {
+               "name": "Testicular Germ Cell Tumor (Suspicious)",
+               "severity": 4
+            }
+         ],
+         "Skin": [
+            {
+               "name": "Normal Skin Histology",
+               "severity": 1
+            },
+            {
+               "name": "Dermatitis",
+               "severity": 2
+            },
+            {
+               "name": "Psoriasis",
+               "severity": 2
+            },
+            {
+               "name": "Melanoma (Suspicious)",
+               "severity": 4
+            },
+            {
+               "name": "Squamous Cell Carcinoma (Suspicious)",
+               "severity": 4
+            }
+         ],
+         "Bone_Soft_Tissue": [
+            {
+               "name": "Normal Bone Tissue",
+               "severity": 1
+            },
+            {
+               "name": "Osteomyelitis",
+               "severity": 3
+            },
+            {
+               "name": "Osteosarcoma (Suspicious)",
+               "severity": 4
+            },
+            {
+               "name": "Soft Tissue Sarcoma (Suspicious)",
+               "severity": 4
+            }
+         ]
+      },
+      "Specimen_Quality": {
+         "Assessment": [
+            {
+               "name": "Adequate Specimen",
+               "severity": 1
+            },
+            {
+               "name": "Inadequate Specimen",
+               "severity": 0
+            },
+            {
+               "name": "Crush Artifact",
+               "severity": 0
+            },
+            {
+               "name": "Autolysis",
+               "severity": 0
+            }
+         ]
+      }
+   }
+}

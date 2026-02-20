@@ -1,0 +1,386 @@
+{
+   "Cardiology": {
+      "ECG": {
+         "Rhythm_Disorders": [
+            {
+               "name": "Normal Sinus Rhythm",
+               "severity": 1
+            },
+            {
+               "name": "Sinus Bradycardia",
+               "severity": 2
+            },
+            {
+               "name": "Sinus Tachycardia",
+               "severity": 2
+            },
+            {
+               "name": "Atrial Fibrillation",
+               "severity": 3
+            },
+            {
+               "name": "Atrial Flutter",
+               "severity": 3
+            },
+            {
+               "name": "Supraventricular Tachycardia",
+               "severity": 3
+            },
+            {
+               "name": "Ventricular Tachycardia",
+               "severity": 4
+            },
+            {
+               "name": "Ventricular Fibrillation",
+               "severity": 4
+            },
+            {
+               "name": "Premature Atrial Complexes",
+               "severity": 2
+            },
+            {
+               "name": "Premature Ventricular Complexes",
+               "severity": 2
+            },
+            {
+               "name": "Junctional Rhythm",
+               "severity": 3
+            }
+         ],
+         "Conduction_Abnormalities": [
+            {
+               "name": "First Degree AV Block",
+               "severity": 2
+            },
+            {
+               "name": "Second Degree AV Block (Mobitz I)",
+               "severity": 2
+            },
+            {
+               "name": "Second Degree AV Block (Mobitz II)",
+               "severity": 3
+            },
+            {
+               "name": "Complete Heart Block",
+               "severity": 4
+            },
+            {
+               "name": "Right Bundle Branch Block",
+               "severity": 2
+            },
+            {
+               "name": "Left Bundle Branch Block",
+               "severity": 3
+            },
+            {
+               "name": "Bifascicular Block",
+               "severity": 3
+            },
+            {
+               "name": "Trifascicular Block",
+               "severity": 4
+            },
+            {
+               "name": "Pre-excitation (WPW Pattern)",
+               "severity": 3
+            }
+         ],
+         "Ischemic_Changes": [
+            {
+               "name": "Normal ECG",
+               "severity": 1
+            },
+            {
+               "name": "ST Elevation Myocardial Infarction (STEMI)",
+               "severity": 4
+            },
+            {
+               "name": "Non-ST Elevation Myocardial Infarction (NSTEMI)",
+               "severity": 4
+            },
+            {
+               "name": "Acute Myocardial Ischemia",
+               "severity": 4
+            },
+            {
+               "name": "Old Myocardial Infarction",
+               "severity": 2
+            },
+            {
+               "name": "Wellens Syndrome",
+               "severity": 4
+            },
+            {
+               "name": "De Winter T Waves",
+               "severity": 4
+            }
+         ],
+         "Chamber_Enlargement": [
+            {
+               "name": "Left Atrial Enlargement",
+               "severity": 2
+            },
+            {
+               "name": "Right Atrial Enlargement",
+               "severity": 2
+            },
+            {
+               "name": "Left Ventricular Hypertrophy",
+               "severity": 2
+            },
+            {
+               "name": "Right Ventricular Hypertrophy",
+               "severity": 3
+            },
+            {
+               "name": "Biventricular Hypertrophy",
+               "severity": 3
+            }
+         ],
+         "Electrolyte_Effects": [
+            {
+               "name": "Hyperkalemia Pattern",
+               "severity": 4
+            },
+            {
+               "name": "Hypokalemia Pattern",
+               "severity": 3
+            },
+            {
+               "name": "Hypercalcemia Pattern",
+               "severity": 3
+            },
+            {
+               "name": "Hypocalcemia Pattern",
+               "severity": 3
+            }
+         ]
+      },
+      "Echocardiography": {
+         "Global_Function": [
+            {
+               "name": "Normal Left Ventricular Function",
+               "severity": 1
+            },
+            {
+               "name": "Reduced Ejection Fraction (HFrEF)",
+               "severity": 4
+            },
+            {
+               "name": "Preserved Ejection Fraction (HFpEF)",
+               "severity": 3
+            },
+            {
+               "name": "Dilated Cardiomyopathy",
+               "severity": 4
+            },
+            {
+               "name": "Hypertrophic Cardiomyopathy",
+               "severity": 3
+            },
+            {
+               "name": "Restrictive Cardiomyopathy",
+               "severity": 3
+            }
+         ],
+         "Valvular_Heart_Disease": [
+            {
+               "name": "Mitral Regurgitation",
+               "severity": 3
+            },
+            {
+               "name": "Mitral Stenosis",
+               "severity": 3
+            },
+            {
+               "name": "Aortic Regurgitation",
+               "severity": 3
+            },
+            {
+               "name": "Aortic Stenosis",
+               "severity": 4
+            },
+            {
+               "name": "Tricuspid Regurgitation",
+               "severity": 2
+            },
+            {
+               "name": "Pulmonary Valve Stenosis",
+               "severity": 3
+            },
+            {
+               "name": "Prosthetic Valve Dysfunction",
+               "severity": 4
+            }
+         ],
+         "Pericardial": [
+            {
+               "name": "Normal Pericardium",
+               "severity": 1
+            },
+            {
+               "name": "Pericardial Effusion",
+               "severity": 3
+            },
+            {
+               "name": "Cardiac Tamponade",
+               "severity": 4
+            },
+            {
+               "name": "Constrictive Pericarditis",
+               "severity": 3
+            }
+         ],
+         "Structural_Defects": [
+            {
+               "name": "Atrial Septal Defect",
+               "severity": 3
+            },
+            {
+               "name": "Ventricular Septal Defect",
+               "severity": 4
+            },
+            {
+               "name": "Patent Foramen Ovale",
+               "severity": 2
+            },
+            {
+               "name": "Patent Ductus Arteriosus",
+               "severity": 4
+            }
+         ],
+         "Infective": [
+            {
+               "name": "Infective Endocarditis (Vegetation)",
+               "severity": 4
+            },
+            {
+               "name": "Valve Abscess",
+               "severity": 4
+            }
+         ],
+         "Pulmonary_Hypertension": [
+            {
+               "name": "Normal Pulmonary Pressure",
+               "severity": 1
+            },
+            {
+               "name": "Pulmonary Hypertension (Mild)",
+               "severity": 3
+            },
+            {
+               "name": "Pulmonary Hypertension (Severe)",
+               "severity": 4
+            }
+         ]
+      },
+      "Cardiac_MRI": {
+         "Myocardial_Disease": [
+            {
+               "name": "Normal Cardiac MRI",
+               "severity": 1
+            },
+            {
+               "name": "Myocardial Infarction (Late Gadolinium Enhancement)",
+               "severity": 4
+            },
+            {
+               "name": "Myocarditis",
+               "severity": 3
+            },
+            {
+               "name": "Cardiac Sarcoidosis",
+               "severity": 3
+            },
+            {
+               "name": "Amyloidosis",
+               "severity": 3
+            },
+            {
+               "name": "Iron Overload Cardiomyopathy",
+               "severity": 3
+            }
+         ],
+         "Cardiomyopathy": [
+            {
+               "name": "Dilated Cardiomyopathy",
+               "severity": 4
+            },
+            {
+               "name": "Hypertrophic Cardiomyopathy",
+               "severity": 3
+            },
+            {
+               "name": "Arrhythmogenic Right Ventricular Cardiomyopathy",
+               "severity": 4
+            },
+            {
+               "name": "Non-Compaction Cardiomyopathy",
+               "severity": 3
+            }
+         ],
+         "Congenital_Heart_Disease": [
+            {
+               "name": "Tetralogy of Fallot (Post Repair)",
+               "severity": 3
+            },
+            {
+               "name": "Transposition of Great Arteries",
+               "severity": 4
+            },
+            {
+               "name": "Single Ventricle Physiology",
+               "severity": 4
+            }
+         ],
+         "Pericardial_Disease": [
+            {
+               "name": "Pericardial Effusion",
+               "severity": 3
+            },
+            {
+               "name": "Constrictive Pericarditis",
+               "severity": 3
+            }
+         ],
+         "Cardiac_Masses": [
+            {
+               "name": "Cardiac Myxoma",
+               "severity": 3
+            },
+            {
+               "name": "Intracardiac Thrombus",
+               "severity": 4
+            },
+            {
+               "name": "Cardiac Tumor (Suspicious)",
+               "severity": 3
+            }
+         ]
+      },
+      "Holter_Monitoring": {
+         "Arrhythmias": [
+            {
+               "name": "Normal Holter Study",
+               "severity": 1
+            },
+            {
+               "name": "Paroxysmal Atrial Fibrillation",
+               "severity": 3
+            },
+            {
+               "name": "Frequent PVCs (>10%)",
+               "severity": 3
+            },
+            {
+               "name": "Non-Sustained VT",
+               "severity": 3
+            },
+            {
+               "name": "Sinus Pause > 3 seconds",
+               "severity": 4
+            }
+         ]
+      }
+   }
+}

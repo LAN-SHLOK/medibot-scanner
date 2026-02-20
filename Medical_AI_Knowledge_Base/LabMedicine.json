@@ -1,0 +1,318 @@
+{
+   "Laboratory_Medicine": {
+      "Hematology": {
+         "CBC": [
+            {
+               "name": "Normal Complete Blood Count",
+               "severity": 1
+            },
+            {
+               "name": "Anemia (Mild)",
+               "severity": 2
+            },
+            {
+               "name": "Anemia (Severe)",
+               "severity": 3
+            },
+            {
+               "name": "Polycythemia",
+               "severity": 3
+            },
+            {
+               "name": "Leukocytosis",
+               "severity": 3
+            },
+            {
+               "name": "Leukopenia",
+               "severity": 3
+            },
+            {
+               "name": "Thrombocytopenia",
+               "severity": 3
+            },
+            {
+               "name": "Thrombocytosis",
+               "severity": 2
+            }
+         ],
+         "Malignancy_Suspicion": [
+            {
+               "name": "Acute Leukemia (Suspicious)",
+               "severity": 4
+            },
+            {
+               "name": "Chronic Leukemia (Suspicious)",
+               "severity": 3
+            },
+            {
+               "name": "Lymphoma (Suspicious)",
+               "severity": 3
+            },
+            {
+               "name": "Myeloproliferative Disorder (Suspicious)",
+               "severity": 3
+            }
+         ],
+         "Coagulation": [
+            {
+               "name": "Normal Coagulation Profile",
+               "severity": 1
+            },
+            {
+               "name": "Prolonged PT/INR",
+               "severity": 3
+            },
+            {
+               "name": "Prolonged aPTT",
+               "severity": 3
+            },
+            {
+               "name": "Disseminated Intravascular Coagulation (DIC)",
+               "severity": 4
+            }
+         ]
+      },
+      "Biochemistry": {
+         "Renal_Function": [
+            {
+               "name": "Normal Renal Function",
+               "severity": 1
+            },
+            {
+               "name": "Acute Kidney Injury",
+               "severity": 4
+            },
+            {
+               "name": "Chronic Kidney Disease",
+               "severity": 3
+            },
+            {
+               "name": "Uremia",
+               "severity": 4
+            }
+         ],
+         "Liver_Function": [
+            {
+               "name": "Normal Liver Function",
+               "severity": 1
+            },
+            {
+               "name": "Hepatitis Pattern",
+               "severity": 3
+            },
+            {
+               "name": "Cholestatic Pattern",
+               "severity": 3
+            },
+            {
+               "name": "Acute Liver Failure",
+               "severity": 4
+            }
+         ],
+         "Electrolytes": [
+            {
+               "name": "Normal Electrolytes",
+               "severity": 1
+            },
+            {
+               "name": "Hyponatremia",
+               "severity": 3
+            },
+            {
+               "name": "Hypernatremia",
+               "severity": 3
+            },
+            {
+               "name": "Hyperkalemia",
+               "severity": 4
+            },
+            {
+               "name": "Hypokalemia",
+               "severity": 3
+            },
+            {
+               "name": "Metabolic Acidosis",
+               "severity": 4
+            },
+            {
+               "name": "Metabolic Alkalosis",
+               "severity": 3
+            }
+         ],
+         "Endocrine": [
+            {
+               "name": "Normal Glycemic Status",
+               "severity": 1
+            },
+            {
+               "name": "Diabetes Mellitus",
+               "severity": 3
+            },
+            {
+               "name": "Diabetic Ketoacidosis",
+               "severity": 4
+            },
+            {
+               "name": "Hypothyroidism",
+               "severity": 2
+            },
+            {
+               "name": "Hyperthyroidism",
+               "severity": 3
+            }
+         ],
+         "Cardiac_Markers": [
+            {
+               "name": "Normal Cardiac Markers",
+               "severity": 1
+            },
+            {
+               "name": "Acute Myocardial Injury (Troponin Positive)",
+               "severity": 4
+            },
+            {
+               "name": "Heart Failure Marker Elevated (BNP)",
+               "severity": 3
+            }
+         ]
+      },
+      "Microbiology": {
+         "Blood": [
+            {
+               "name": "No Growth",
+               "severity": 1
+            },
+            {
+               "name": "Bacteremia",
+               "severity": 4
+            },
+            {
+               "name": "Septicemia",
+               "severity": 4
+            }
+         ],
+         "Urine": [
+            {
+               "name": "Normal Urine Culture",
+               "severity": 1
+            },
+            {
+               "name": "Urinary Tract Infection",
+               "severity": 3
+            },
+            {
+               "name": "Complicated UTI / Pyelonephritis",
+               "severity": 4
+            }
+         ],
+         "Respiratory": [
+            {
+               "name": "Normal Respiratory Sample",
+               "severity": 1
+            },
+            {
+               "name": "Bacterial Pneumonia",
+               "severity": 3
+            },
+            {
+               "name": "Tuberculosis (Suspicious)",
+               "severity": 4
+            }
+         ],
+         "Others": [
+            {
+               "name": "Fungal Infection",
+               "severity": 3
+            },
+            {
+               "name": "Viral Infection (Systemic)",
+               "severity": 3
+            },
+            {
+               "name": "Parasitic Infection",
+               "severity": 3
+            }
+         ]
+      },
+      "Urinalysis": {
+         "Routine": [
+            {
+               "name": "Normal Urinalysis",
+               "severity": 1
+            },
+            {
+               "name": "Proteinuria",
+               "severity": 2
+            },
+            {
+               "name": "Hematuria",
+               "severity": 3
+            },
+            {
+               "name": "Pyuria",
+               "severity": 3
+            }
+         ]
+      },
+      "Tumor_Markers": {
+         "General": [
+            {
+               "name": "Normal Tumor Markers",
+               "severity": 1
+            },
+            {
+               "name": "Elevated PSA (Suspicious)",
+               "severity": 3
+            },
+            {
+               "name": "Elevated AFP (Suspicious)",
+               "severity": 3
+            },
+            {
+               "name": "Elevated CA-125 (Suspicious)",
+               "severity": 3
+            },
+            {
+               "name": "Multiple Tumor Markers Elevated (Suspicious)",
+               "severity": 4
+            }
+         ]
+      },
+      "Inflammatory_Markers": {
+         "Systemic": [
+            {
+               "name": "Normal Inflammatory Markers",
+               "severity": 1
+            },
+            {
+               "name": "Elevated CRP / ESR",
+               "severity": 3
+            },
+            {
+               "name": "Sepsis Markers Elevated",
+               "severity": 4
+            }
+         ]
+      },
+      "Genetics": {
+         "Cancer_Risk": [
+            {
+               "name": "No Pathogenic Mutation Detected",
+               "severity": 1
+            },
+            {
+               "name": "BRCA1 Pathogenic Mutation",
+               "severity": 4
+            },
+            {
+               "name": "BRCA2 Pathogenic Mutation",
+               "severity": 4
+            },
+            {
+               "name": "Lynch Syndrome Mutation",
+               "severity": 4
+            }
+         ]
+      }
+   }
+}

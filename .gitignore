@@ -1,0 +1,10 @@
+.env
+.ipynb_checkpoints/
+__pycache__/
+outputs/heatmaps/
+outputs/reports/
+temp_*
+*.pkl
+*.pt
+*.h5
+key
